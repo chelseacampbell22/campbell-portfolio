@@ -14,12 +14,14 @@
 }
 .hero h2 {
   font-family: "Poppins", sans-serif;
+  color: #329ba9;
   font-size: 24px;
   font-weight: normal;
   line-height: 2;
 }
 .btn-contact {
   background: #329ba9;
+  color: white;
   border-radius: 4px;
   line-height: 27px;
   font-size: 18px;
@@ -27,6 +29,7 @@
 }
 .btn-about {
   background: #329ba9;
+  font: white;
   border-radius: 4px;
   line-height: 27px;
   font-size: 18px;
