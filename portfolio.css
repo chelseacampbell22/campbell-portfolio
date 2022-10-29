@@ -1,0 +1,59 @@
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.arms {
+  width: 320px;
+  border-radius: 0.25rem !important;
+}
+.weather {
+  width: 320px;
+  border-radius: 0.25rem !important;
+}
+.travel {
+  width: 320px;
+  border-radius: 0.25rem !important;
+}
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 48px;
+  text-align: left;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+.rounded {
+  border-radius: 0.25rem !important;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+img,
+svg {
+  vertical-align: middle;
+}
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+}
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: left;
+  padding-bottom: 20px;
+}
+.wapp,
+.tblog,
+.asite {
+  text-align: left;
+}
+.col-md-6 {
+  padding: 30px;
+}
