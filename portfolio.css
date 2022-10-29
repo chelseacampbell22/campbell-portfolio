@@ -41,8 +41,7 @@ body {
   font-weight: normal;
   line-height: 2;
 }
-.btn-about,
-.btn-contact {
+.buttons {
   background: #329ba9;
   color: white;
   border-radius: 4px;
