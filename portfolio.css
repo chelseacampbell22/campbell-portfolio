@@ -3,6 +3,7 @@
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
   --secondary-color: black;
+  --tertiary-color: white;
 }
 
 h1,
@@ -11,7 +12,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #329ba9;
+  color: var(--branding-color);
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
@@ -19,7 +20,7 @@ body {
   font-family: var(--default-font-family);
 }
 .hero {
-  background-color: black;
+  background-color: var(--secondary-color);
   text-align: center;
   padding: 160px 20px;
 }
@@ -27,24 +28,24 @@ body {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
-  color: #329ba9;
+  color: var(--branding-color);
   text-align: center;
 }
 .hero h1 {
   font-size: 96px;
-  color: white;
+  color: var(--tertiary-color);
 }
 .hero h2 {
-  font-family: "Poppins", sans-serif;
-  color: #329ba9;
+  font-family: var(--default-font-family);
+  color: var(--branding-color);
   font-size: 24px;
   font-weight: normal;
   line-height: 2;
 }
 .aboutbutton,
 .contactbutton {
-  background: #329ba9;
-  color: white;
+  background: var(--branding-color);
+  color: var(--tertiary-color);
   border-radius: 4px;
   line-height: 27px;
   font-size: 18px;
