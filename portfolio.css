@@ -51,21 +51,14 @@ body {
   line-height: 2;
 }
 .aboutbutton,
-.contactbutton {
+.contactbutton,
+.armsbutton {
   background: var(--branding-color);
   color: var(--tertiary-color);
   border-radius: 4px;
   line-height: 27px;
   font-size: 18px;
   padding: 15px 30px 15px 30px;
-}
-.btn-branding-outline {
-  background: var(--branding-color);
-  border-radius: 4px;
-  line-height: 27px;
-  font-size: 18px;
-  padding: 15px 30px 15px 30px;
-  border: 1px solid black;
 }
 
 .img-fluid {
