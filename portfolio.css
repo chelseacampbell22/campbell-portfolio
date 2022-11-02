@@ -136,6 +136,9 @@ margin:20px 0 0;
 .content p{
   font-size:14px;
 }
-.work-content{
+.work-content, .about-content{
   background-color: var(--secondary-color);
+}
+.paragraph-about{
+  color:white;
 }
