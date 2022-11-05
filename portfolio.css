@@ -109,6 +109,13 @@ img {
     text-align: center;
     padding: 0;
   }
+  .logo{
+   display:none;
+    }
+  .ul,.li{
+    text-align: center;
+    display: block;
+  }
 }
 .content-container {
   padding: 160px 20px;
@@ -147,5 +154,29 @@ img {
   background-color: black;
 }
 .logo{
-  max-width: ;
+  max-width:150px;
+  max-height: 45px;
+}
+nav li{
+  display:inline;
+  list-style:none;
+  line-height: 35px;
+  margin-left:30px;
+}
+nav ul{
+  padding:0;
+}
+nav{
+  padding:10px 0;
+}
+nav a{
+  text-decoration: none;
+  color: var(--branding-color);
+  transition: all 100ms ease-in-out;
+}
+nav a:hover{
+color:var(--secondary-color);
+}
+nav li:active a{
+  text-decoration:underline;
 }
